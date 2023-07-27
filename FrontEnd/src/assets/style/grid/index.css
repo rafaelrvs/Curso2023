@@ -1,24 +1,19 @@
-
-
-
-/*Display:grid deve ser aplicada em um elemento que deverá atuar como grid container*/
-body{
+body {
   display: grid;
-  grid-template-areas:
+  grid-template-areas: 
   "aside header"
   "aside main";
   grid-template-columns: auto 1fr;
 }
-/* grid-area é especifica do elemento filho e serve para explicar qual a area
-este elemento irá ocupar
-*/
-.cabecalho{
-  grid-area: header;
 
+.cabecalho {
+  grid-area: header;
 }
-.menu-lateral{
+
+.menu-lateral {
   grid-area: aside;
 }
-.principal{
+
+.principal {
   grid-area: main;
 }
