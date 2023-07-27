@@ -1,0 +1,5 @@
+.menu-lateral{
+  display: grid;
+  grid-template-columns:  auto auto auto 1fr;
+  column-gap: 2rem;
+}
